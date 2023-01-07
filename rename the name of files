@@ -1,0 +1,6 @@
+#Perl的正则表达式功能十分强大，基本上是常用语言中最强大的
+替换模式 s/pattern/replacement/igmsoxe
+      s代表substitutes，将匹配的模式pattern替换为replacement，多了一个可选项：
+        e 将replacement作为一个表达式执行
+用于文件夹下所有文件中文件名中字符替换
+$ ls *2.fq |rename "s/_R/_/igm" (将工作文件夹里面所有 *2.fq 文件中含有 '_R' 的名称改为 '_')
