@@ -1,0 +1,5 @@
+#表示在当前目录下将所有格式的文件的名字，存放到lists.txt中去
+find <target_path> -name "<file_name>.<file_type>" > lists.txt
+
+find . -name "*.txt" > a.txt
+
