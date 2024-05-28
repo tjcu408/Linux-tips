@@ -2,4 +2,6 @@
 find <target_path> -name "<file_name>.<file_type>" > lists.txt
 
 find . -name "*.txt" > a.txt
+or
+ls -d */ > folders.txt
 
