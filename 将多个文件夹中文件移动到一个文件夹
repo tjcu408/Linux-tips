@@ -1,0 +1,1 @@
+for var in /home/meta/data/meta/pm/genebank/ncbi_dataset/data/GCA*; do mv "$var"/*.fna /home/meta/data/meta/pm/genebank/gca_assembly; done
