@@ -1,0 +1,6 @@
+for file in *; 
+do  
+       new_name=$(echo "$file" | awk -F"_ASM" '{print $1".fna.gz"}')
+       echo "Renaming $file to$new_name"
+        mv "$file" "$new_name"
+done
