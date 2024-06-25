@@ -1,0 +1,2 @@
+#bacteria env
+$ cairosvg image.svg -o image.png
